@@ -1,0 +1,20 @@
+{
+    "name": "php/vote_isc",
+    "description": "plate forme le vote electronique",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Schadrack"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "altorouter/altorouter": "dev-master",
+        "symfony/var-dumper": "7.2.x-dev"
+    }
+}

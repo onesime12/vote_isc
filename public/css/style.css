@@ -1,0 +1,55 @@
+body {
+    background-color: #ffffff;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.pageTitle{
+    color: #ff9d00;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+label{
+    font-size: small;
+}
+
+input{
+    color :#ff9d00;
+}
+
+.accueil{
+    background-image: url("../images/images (1).jpeg");
+    background-position: bottom;
+    background-repeat: space;
+    background-size: contain;
+    background-attachment: fixed;
+    margin-top: 10px;
+}
+
+.vote-list {
+    max-height: 500px;
+    overflow-y: auto;
+    background-color: #f8f9fa;
+    /* border-right: 1px solid #ddd; */
+    border-radius: 10px;
+}
+.vote-details {
+    background-color: #effafe;
+    padding: 20px;
+    border-left: 1px solid #ddd;
+    max-height: 375px;
+    overflow-y: auto;
+}
+
+.login{
+    height: 60vh;
+}
+
+/* .election-item:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+} */
